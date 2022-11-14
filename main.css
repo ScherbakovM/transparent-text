@@ -1,0 +1,26 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #494949;
+}
+
+.Front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    font-size: 120px;
+    color: white;
+    font-family: "Raleway";
+    font-weight: 800;
+    text-shadow: 10px 10px 30px #9b11f7, -10px -10px 30px #1147f7;
+    -webkit-text-stroke: 2px  #9b11f7;
+    -webkit-text-fill-color: transparent;
+}

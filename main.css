@@ -6,7 +6,7 @@ body {
     align-items: center;
     margin: 0;
     padding: 0;
-    background-color: #494949;
+    background-color: rgb(202, 211, 245);
 }
 
 .Front {
@@ -19,8 +19,25 @@ body {
     font-size: 120px;
     color: white;
     font-family: "Raleway";
-    font-weight: 800;
-    text-shadow: 10px 10px 30px #9b11f7, -10px -10px 30px #1147f7;
-    -webkit-text-stroke: 2px  #9b11f7;
+    font-weight: 900;
+    text-shadow: 10px 10px 30px rgb(234, 234, 234), -10px -10px 30px rgb(168, 234, 220);
+    -webkit-text-stroke: 0.8px  rgb(107, 107, 107);
+    -webkit-text-fill-color: transparent;
+    transition: all 1s ease;
+}
+
+.Front:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    font-size: 120px;
+    color: white;
+    font-family: "Raleway";
+    font-weight: 900;
+    text-shadow: 10px 10px 30px rgb(168, 234, 220) , -10px -10px 25px rgb(234, 234, 234);
+    -webkit-text-stroke: 0.8px  rgb(107, 107, 107);
     -webkit-text-fill-color: transparent;
 }

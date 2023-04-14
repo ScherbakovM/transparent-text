@@ -37,7 +37,7 @@ body {
     color: white;
     font-family: "Raleway";
     font-weight: 900;
-    text-shadow: 10px 10px 30px rgb(168, 234, 220) , -10px -10px 25px rgb(234, 234, 234);
-    -webkit-text-stroke: 0.8px  rgb(107, 107, 107);
+    text-shadow: 10px 10px 30px rgb(130, 236, 213) , -10px -10px 25px rgb(234, 234, 234);
+    -webkit-text-stroke: 0.8px  rgb(148, 146, 146);
     -webkit-text-fill-color: transparent;
 }
